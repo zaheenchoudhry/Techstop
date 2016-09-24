@@ -1,0 +1,101 @@
+main {
+	position:relative;
+	padding-top:80px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:100px;
+	width:1050px;
+	min-height:500px;
+}
+main div{
+	display:inline-block;
+	position:relative;
+	margin-bottom:10px;
+	text-align:center;
+	padding:10px;
+	width:240px;
+	height:380px;
+}
+main img{
+	max-width:220px;
+	height:220px;
+}
+main input[type=submit]{
+	display:none;
+}
+main div .price{
+	font-size:25px;
+	text-align:left;
+	margin-left:10px;
+	height:40px;
+}
+main h3{
+	text-align:left;
+	margin-left:10px;
+	margin-right:10px;
+	height:70px;
+}
+.inStock{
+	color:green;
+	margin-top:2px;
+}
+.outOfStock{
+	color:red;
+	margin-top:2px;
+}
+.preOrder{
+	color:blue;
+	margin-top:2px;
+}
+.oldPrice{
+	font-size:20px;
+}
+.sale{
+	color:red;
+}
+main hr{
+	width:1px;
+	margin-top:20px;
+	height:340px;
+	display:block;
+	float:left;
+}
+main div label{
+	position:relative;
+	color:black;
+	width:70px;
+	font-size:20px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:10px;
+	padding-right:10px;
+	border-style:solid;
+	border-width:2px;
+	cursor:pointer;
+	-webkit-transition: background .3s linear;
+	-moz-transition: background .3s linear;
+	transition: background .3s linear;
+}
+main div label:hover{
+	color:white;
+	border-color:#404040;
+	background-color:#404040;
+}
+main a p{
+	position:relative;
+	text-align:center;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:200px;
+	font-size:16px;
+	color:black;
+	background-color:lightgreen;
+	border-style:solid;
+	border-width:2px;
+}
